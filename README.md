@@ -23,32 +23,38 @@
 - Firebase project setup
 
 ### Steps
+
 1. **Clone the Repository**
    <pre>
-   git clone https://github.com/your-username/socialbook-main.git
-   cd socialbook-main
+   git clone https://github.com/your-username/SocialBook.git
+   cd SocialBook
    </pre>
+
 2. **Install Dependencies**
-<pre>
-npm install
-# or
-yarn install
-</pre>
-3. Firebase Configuration
-    - Create a project in Firebase Console
-    - Enable Authentication, Firestore Database, and Storage
-    - Copy your Firebase config and replace it in firebase-config.js
+   <pre>
+   npm install
+   # or
+   yarn install
+   </pre>
+
+3. **Firebase Configuration**
+   - Create a project in **Firebase Console**
+   - Enable **Authentication**, **Firestore Database**, and **Storage**
+   - Copy your Firebase config and replace it in **firebase-config.js**
+
 4. **Run the Development Server**
-<pre>
-npm run dev
-# or
-yarn dev
-</pre>
+   <pre>
+   npm run dev
+   # or
+   yarn dev
+   </pre>
+
 5. **Build for Production**
-<pre>
-npm run build
-npm start
-</pre>
+   <pre>
+   npm run build
+   npm start
+   </pre>
+
 
 ## 📂 Project Structure
 <pre>
@@ -65,13 +71,13 @@ npm start
 </pre>
 
 ## 🎯 Future Enhancements
-    - Group chats and discussion forums
-    - Video calling functionality
-    - Push notifications for messages and friend requests
-    - Admin panel for college event management
+   - Group chats and discussion forums
+   - Video calling functionality
+   - Push notifications for messages and friend requests
+   - Admin panel for college event management
 
 ## 👩‍💻 Contributors
-    - Akanksha Mane
-    - Siddhi Tambe
-    - Ibrahim Quershi 
-    - Ali Patel
+   - Akanksha Mane
+   - Siddhi Tambe
+   - Ibrahim Quershi
+   - Ali Patel
